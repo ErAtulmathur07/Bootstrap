@@ -1,0 +1,68 @@
+/* Custom CSS */
+
+/* Header */
+nav {
+  border-bottom: 2px solid #ddd;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url("https://images.unsplash.com/photo-1563740408-30deabe0a6b4");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 3rem;
+}
+
+/* About section */
+#about {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* Temples section */
+#temples {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* Mountains section */
+#mountains {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* Lakes section */
+#lakes {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* Contact section */
+#contact {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+/* Footer */
+footer {
+  background-color: #ddd;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .navbar-brand {
+      font-size: 1.2rem;
+  }
+
+  .jumbotron {
+      padding: 2rem;
+  }
+}
